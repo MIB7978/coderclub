@@ -1,0 +1,53 @@
+.card 
+{
+    
+    width: 500px;
+    max-width: 90%;
+    min-height: 300px;
+    text-align: center;
+    background-color: #1B1818;
+    border-radius: 20px;
+}
+
+.headingwraper
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 20px;
+     margin-top: 20px;
+}
+
+.heading 
+{
+    font-size:24px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #C4C4C5;
+
+}
+.cardwrapper
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text
+{
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    
+}
+
+.signin
+{
+    margin-top: 12px;
+}
+
+.spantext
+{
+    color: #0077FF;
+}

@@ -13,15 +13,14 @@ function Authenticate() {
         2:StepOtp
        
     }
-    const [step, setStep] = useState(1)
+    const [step, setStep] = useState(2)
     const Step = steps[step]
     const onNext = ()=>{
         setStep(step+1)
     }
   return (
-    <div>
-     <Step onNext = {onNext}/>
-    </div>
+     <Step onClick = {onNext}/>
+  
   )
 }
 

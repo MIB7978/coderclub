@@ -1,0 +1,44 @@
+.cardwrapper{
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.btnwrapper
+{
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 50px;
+   margin-bottom: 20px;
+}
+
+.btn
+{
+   height: 50px;
+   width:50px;
+   background-color: #262626;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+
+}
+.btn:last-child{
+   margin-left: 20px;
+
+}
+
+.active{
+   background-color: #0077FF;
+}
+.inputwrapper
+{
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+.bottompara
+{
+   margin-top: 10px;
+   color:#C4C4C5;
+}

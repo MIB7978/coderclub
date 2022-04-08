@@ -9,7 +9,7 @@ function Button(props) {
 
         <button onClick={onClick} className={style.btn}>
          <span>{text}</span>
-         <img src={`/image/${icon}.png`} className={style.arrow}/>
+         <img src={`/image/${icon}.png`} alt='' className={style.arrow}/>
         </button>
 
 
